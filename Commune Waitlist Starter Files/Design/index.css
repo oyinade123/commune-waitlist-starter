@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #f6f9fe;
+  padding: 30px 80px;
+  margin: 0 auto;
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.container .waitlist {
+  padding: 15px;
+  background-color: #372865;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.container section {
+  margin-top: 60px;
+}
+
+.container section .first {
+  display: flex;
+  background-color: #372865;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.container section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .link {
+  color: #ffffff;
+}
+
+.container .second {
+  margin-top: 10px;
+}
+
+.container .second h1 {
+  font-size: 50px;
+  color: #373453;
+  margin-bottom: 20px;
+}
+
+
+.input {
+  margin-top: 20px;
+}
+
+.input1 {
+  padding: 15px 100px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 gainsboro;
+  border: none;
+}
+
+.foot p {
+  font-weight: bold;
+}
+
+.container footer {
+  margin-top: 20px;
+}
+
+.container .foot p {
+  margin-bottom: 10px;
+}
+
